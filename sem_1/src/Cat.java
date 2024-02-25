@@ -46,6 +46,10 @@ public class Cat extends Animal{
         System.out.println(" прыг! ");
     }
 
+    public void klubok(){
+        System.out.println("Кот свернулся в клубок");
+    }
+
     @Override
     public String toString() {
         return "Cat{" +

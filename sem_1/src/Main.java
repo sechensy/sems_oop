@@ -9,5 +9,13 @@ public class Main {
         catOne.setAge(100);
         System.out.println(catOne);
         catOne.voice();
+
+        Animal snake = new Animal() {
+            @Override
+            protected void voice() {
+                System.out.println("shhhh!");
+            }
+        };
+        System.out.println("snake = " + snake);
     }
 }
