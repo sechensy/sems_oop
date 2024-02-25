@@ -37,6 +37,16 @@ public class Cat extends Animal{
     }
 
     @Override
+    protected void animalInfo() {
+        System.out.println(" мявк! мявк!");
+    }
+
+    @Override
+    protected void jump() {
+        System.out.println(" прыг! ");
+    }
+
+    @Override
     public String toString() {
         return "Cat{" +
                 "name='" + super.getName() + '\'' +
